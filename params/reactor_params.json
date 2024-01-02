@@ -1,0 +1,18 @@
+{
+    "enable_reactor": true,
+    "seperated_face_swap_source_image": "0",
+    "seperated_face_swap_target_image": "0",
+    "restore_face_mode": "CodeFormer",
+    "restore_visibility_value": 1, 
+    "restore_face": true, 
+    "upscaler": null, 
+    "upscaler_value": 1,
+    "swap_in_source_image": false, 
+    "swap_in_generated_image": true,
+    "in_gender_detection": 0, 
+    "out_gender_detection": 0,
+    "save_image_before_swapping": false,
+    "codeformer_weight": 0.5,
+    "source_image_hash_check": false, 
+    "target_image_hash_check": false
+}

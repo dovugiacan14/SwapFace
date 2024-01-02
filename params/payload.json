@@ -1,0 +1,9 @@
+{
+    "seed": -1, 
+    "sampler_name": "DDIM", 
+    "steps": 30, 
+    "cfg_scale": 7, 
+    "width": 1024, 
+    "height": 1024, 
+    "restore_faces": false
+}
