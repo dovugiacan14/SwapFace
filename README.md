@@ -1,7 +1,7 @@
 # Stable Diffiusion - Swap Face Extension 
 
 ## **OVERVIEW**
-    In this repository, we provide a souce code that perform face swapping feature, leveraging the cutting-edge text-to-image and image-to-image capabilities of Stable Diffusion through a streamlined API intergration. 
+In this repository, we provide a souce code that perform face swapping feature, leveraging the cutting-edge text-to-image and image-to-image capabilities of Stable Diffusion through a streamlined API intergration. 
 
 ## **FEATURES**
 
@@ -36,7 +36,7 @@ Remember to set the `MODEL_PATH` variable correctly in `config\service_config.py
 3. Ensure `chromedriver` version that you installed have to be compatible with your `Chrome Browser` version in your system. 
 
 4. Run: 
-    >   **python crawling.py**
+>       **python crawling.py**
 
 ### Text-to-Image Face Swapping
 1. Point the `SWAP_IMAGE_PATH` variable in `config/service_config.py` to the folder containing the images you'd like to face-swap.
@@ -46,7 +46,7 @@ Remember to set the `MODEL_PATH` variable correctly in `config\service_config.py
 3. Set the `SAVED_PATH_TXT2IMG` variable in `config/service_config.py` to the location where you want to save your face-swapped images.
 
 4. Run: 
-    >   **python swapface_txt2img.py**
+>       **python swapface_txt2img.py**
 
 ### Image-to-Image Face Swapping 
 1. Point the `SWAP_IMAGE_PATH` variable in `config/service_config.py` to the folder containing the images you'd like to face-swap.
@@ -56,7 +56,7 @@ Remember to set the `MODEL_PATH` variable correctly in `config\service_config.py
 3. Set the `SAVED_PATH_IMG2IMG` variable in `config/service_config.py` to the location where you want to save your face-swapped images.
 
 4. Run: 
-    >   **python swapface_img2img.py**
+>       **python swapface_img2img.py**
 
 
 
